@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<script type="importmap" >
+    {
+   "imports": {
+    "vue": "https://unpkg.com/vue@3.3.7/dist/vue.esm-browser.js",
+    "vue/server-renderer": "https://unpkg.com/@vue/server-renderer@3.3.7/dist/server-renderer.esm-browser.js"
+  }
+}
+</script>
+
+<!--
+跟 Vue 说 Hello World！
+-->
+
+<script type="module">
+    import { createApp, ref } from 'vue'
+
+    createApp({
+        setup() {
+            // “ref”是用来存储值的响应式数据源。
+            // 理论上我们在展示该字符串的时候不需要将其包装在 ref() 中，
+            // 但是在下一个示例中更改这个值的时候，我们就需要它了。
+            const message = ref('Hello World!')
+
+            return {
+                message
+            }
+        }
+    }).mount('#app')
+</script>
+
+<div id="app">
+    <h1>{{ message }}</h1>
+</div>
+
+</body>
+</html>
