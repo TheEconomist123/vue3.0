@@ -1,2 +1,2 @@
 
-remote_file_path="/home/zzz/huisbankSaleOurInfo.xlsx"
+remote_file_path="/home/zzz/huisbankDiscInfo.xlsx"
