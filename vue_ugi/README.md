@@ -27,8 +27,8 @@ npm run dev
 ```sh
 npm run build
 ```
-Thu Nov 16 17:23:16     2023
 
-#此readme文件时 新创建 远程仓库时候，github自己新建的。
+
+#文件初始化，开发模式，构建模式
 
 
