@@ -15,8 +15,9 @@ import 'element-plus/dist/index.css' //引入elementplus 样式
 import App from './App.vue' //根组件
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs' //设置成中文
 const app = createApp(App) //创建vue实例
-
-
+/*
+#开始引入elementPlus 并使用了中文
+*/
 app.use(ElementPlus,{
     locale: zhCn,
 })//开始使用element
