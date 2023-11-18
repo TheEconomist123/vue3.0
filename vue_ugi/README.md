@@ -28,3 +28,7 @@ npm run dev
 npm run build
 ```
 Thu Nov 16 17:23:16     2023
+
+#此readme文件时 新创建 远程仓库时候，github自己新建的。
+
+
